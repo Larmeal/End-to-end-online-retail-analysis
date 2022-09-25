@@ -14,14 +14,14 @@ This project was created to practice the beginner-level data engineer for unders
 The project was simulated to the gift shop in London, named "Worldwide gift shop", Which contains a transnational data set which occurred between 01/12/2018 and 09/12/2019 for a UK-based and registered non-store online retail. on [UCI website](https://archive.ics.uci.edu/ml/datasets/Online+Retail)
 
 Attribute Information:
-InvoiceNo: Invoice number. Nominal, a 6-digit integral number uniquely assigned to each transaction. If this code starts with letter 'c', it indicates a cancellation.
-StockCode: Product (item) code. Nominal, a 5-digit integral number uniquely assigned to each distinct product.
-Description: Product (item) name. Nominal.
-Quantity: The quantities of each product (item) per transaction. Numeric.
-InvoiceDate: Invice Date and time. Numeric, the day and time when each transaction was generated.
-UnitPrice: Unit price. Numeric, Product price per unit in sterling.
-CustomerID: Customer number. Nominal, a 5-digit integral number uniquely assigned to each customer.
-Country: Country name. Nominal, the name of the country where each customer resides.
+- InvoiceNo: Invoice number. Nominal, a 6-digit integral number uniquely assigned to each transaction. If this code starts with letter 'c', it indicates a cancellation.
+- StockCode: Product (item) code. Nominal, a 5-digit integral number uniquely assigned to each distinct product.
+- Description: Product (item) name. Nominal.
+- Quantity: The quantities of each product (item) per transaction. Numeric.
+- InvoiceDate: Invice Date and time. Numeric, the day and time when each transaction was generated.
+- UnitPrice: Unit price. Numeric, Product price per unit in sterling.
+- CustomerID: Customer number. Nominal, a 5-digit integral number uniquely assigned to each customer.
+- Country: Country name. Nominal, the name of the country where each customer resides.
 
 the objective:
 1. Upload the raw data from [Online retail](https://drive.google.com/file/d/1BYej-MzFBptFdbyCavLNCM5Kqy8B250k/view?usp=sharing) to a local database such as MySQL for starting the project
