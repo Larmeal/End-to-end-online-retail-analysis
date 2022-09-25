@@ -24,6 +24,9 @@ Attribute Information:
 - Country: Country name. Nominal, the name of the country where each customer resides.
 
 the objective:
-1. Upload the raw data from [Online retail](https://drive.google.com/file/d/1BYej-MzFBptFdbyCavLNCM5Kqy8B250k/view?usp=sharing) to a local database such as MySQL for starting the project
+1. Build the report which shows the top 10 best-sellers of products.
+
+Guidelines:
+1. Upload the raw data from [Online retail](https://drive.google.com/file/d/1BYej-MzFBptFdbyCavLNCM5Kqy8B250k/view?usp=sharing) to a local database such as MySQL for starting the project.
 2. Download the raw data to the local machine for transforming the data later, and Cloud storage to preserve raw data.
-3. Transformation and 
+3. To be continuous.... 26/09/2022
