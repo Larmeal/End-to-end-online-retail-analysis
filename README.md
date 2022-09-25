@@ -8,7 +8,7 @@
 ## Project Overview:
 ![Flow Chart 2](https://user-images.githubusercontent.com/95965281/192148727-b1acfa5a-c988-46cd-b7b6-38e4fcd288b6.jpg)
 
-This project was created to practice the beginner-level data engineer for understanding the end-to-end data pipeline process starting with the extraction of the raw data to transformation to analytic data and loading to the data warehouse and basic visualization on the dashboard. The project was modified from "Road to Data Engineer" course by Aj.Perth and Aj.Fony at [DataTH](https://www.facebook.com/datasciencechill) on Facebook fanpage.
+This project was created to practice the beginner-level data engineer for understanding the end-to-end data pipeline process starting with the extraction of the raw data to transformation to analytic data and loading to the data warehouse and basic visualization on the dashboard. The project was modified from "Road to Data Engineer" course which was instructed by Aj.Perth and Aj.Fony at [DataTH](https://www.facebook.com/datasciencechill) on Facebook fanpage.
 
 ## Project Desciption:
 The project was simulated to the gift shop in London, named "Worldwide gift shop", Which contains a transnational data set which occurred between 01/12/2018 and 09/12/2019 for a UK-based and registered non-store online retail. on [UCI website](https://archive.ics.uci.edu/ml/datasets/Online+Retail)
