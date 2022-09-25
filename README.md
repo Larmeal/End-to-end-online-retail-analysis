@@ -11,3 +11,19 @@
 This project was created to practice the beginner-level data engineer for understanding the end-to-end data pipeline process starting with the extraction of the raw data to transformation to analytic data and loading to the data warehouse and basic visualization on the dashboard. The project was modified from "Road to Data Engineer" course by Aj.Perth and Aj.Fony at [DataTH](https://www.facebook.com/datasciencechill) on Facebook fanpage.
 
 ## Project Desciption:
+The project was simulated to the gift shop in London, named "Worldwide gift shop", Which contains a transnational data set which occurred between 01/12/2018 and 09/12/2019 for a UK-based and registered non-store online retail. on [UCI website](https://archive.ics.uci.edu/ml/datasets/Online+Retail)
+
+Attribute Information:
+InvoiceNo: Invoice number. Nominal, a 6-digit integral number uniquely assigned to each transaction. If this code starts with letter 'c', it indicates a cancellation.
+StockCode: Product (item) code. Nominal, a 5-digit integral number uniquely assigned to each distinct product.
+Description: Product (item) name. Nominal.
+Quantity: The quantities of each product (item) per transaction. Numeric.
+InvoiceDate: Invice Date and time. Numeric, the day and time when each transaction was generated.
+UnitPrice: Unit price. Numeric, Product price per unit in sterling.
+CustomerID: Customer number. Nominal, a 5-digit integral number uniquely assigned to each customer.
+Country: Country name. Nominal, the name of the country where each customer resides.
+
+the objective:
+1. Upload the raw data from [Online retail](https://drive.google.com/file/d/1BYej-MzFBptFdbyCavLNCM5Kqy8B250k/view?usp=sharing) to a local database such as MySQL for starting the project
+2. Download the raw data to the local machine for transforming the data later, and Cloud storage to preserve raw data.
+3. Transformation and 
