@@ -27,12 +27,12 @@ the objective:
 1. Build the report which shows the top 10 best-sellers of products in Thai baht (THB).
 
 Guidelines:
-- 1. Upload the raw data from [Online retail](https://drive.google.com/file/d/1BYej-MzFBptFdbyCavLNCM5Kqy8B250k/view?usp=sharing) to a local database such as MySQL for starting the project.
-- 2. Download the raw data to the local machine for transforming the data later, and Google Cloud Storage to preserve the raw data.
-- 3. In **extraction step**, you have to collect 2 datasets including
-  - 3.1 The transaction data of online retial from [Online retail](https://drive.google.com/file/d/1BYej-MzFBptFdbyCavLNCM5Kqy8B250k/view?usp=sharing).
-  - 3.2 The British Pounds (GBP) exchange rate to convert the "UnitPrice" column from GBP to THB from [GBP exchange rate API](https://de-training-2020-7au6fmnprq-de.a.run.app/currency_gbp/all).
-- 4. In **transformation step**, you should clean the data to prepare the analytical data according to the conditions thus 
+1. Upload the raw data from [Online retail](https://drive.google.com/file/d/1BYej-MzFBptFdbyCavLNCM5Kqy8B250k/view?usp=sharing) to a local database such as MySQL for starting the project.
+2. Download the raw data to the local machine for transforming the data later, and Google Cloud Storage to preserve the raw data.
+3. In **extraction step**, you have to collect 2 datasets including
+3.1 The transaction data of online retial from [Online retail](https://drive.google.com/file/d/1BYej-MzFBptFdbyCavLNCM5Kqy8B250k/view?usp=sharing).
+3.2 The British Pounds (GBP) exchange rate to convert the "UnitPrice" column from GBP to THB from [GBP exchange rate API](https://de-training-2020-7au6fmnprq-de.a.run.app/currency_gbp/all).
+4. In **transformation step**, you should clean the data to prepare the analytical data according to the conditions thus 
 4.1 The "StockCode" column should be 5-digit pure integral number. 
 4.2 The "Quantity" and "UnitPrice" value should be more than 0.
 4.3 The "InvoiceDate" should be timestamp column type before ingesting to BigQuery. 
