@@ -1,6 +1,6 @@
 # End-to-end online retail analysis (Data Engineer project)
 ## Project Overview:
-![2](https://user-images.githubusercontent.com/95965281/192228310-9f2bc0e7-0bc8-4a00-b15a-da3bb670d1a5.jpg)
+![2](https://user-images.githubusercontent.com/95965281/192228627-8d2cb376-fd62-4be6-b53e-f43cbed202ff.jpg)
 
 This project was created to practice the beginner-level data engineer for understanding the end-to-end data pipeline process starting with the extraction of the raw data to transformation to analytic data and loading to the data warehouse and basic visualization on the dashboard. The project was modified from "Road to Data Engineer" course which was instructed by Mr.Perth and Ms.Fony on [DataTH](https://www.facebook.com/datasciencechill) Facebook fanpage.
 
