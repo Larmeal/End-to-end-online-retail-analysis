@@ -40,8 +40,7 @@ Guidelines:
 4.5 The data must have the "THBprice" column before ingesting to BigQuery.
 5. Before cleaning the data, Upload the cleaned data to Google Cloud Storage to perserve the analytical data
 6. In **Loading step**, Build the airflow pipeline in Composer service for containing the cleaned data in Google Cloud Storage to BigQuery
-7. Build the report which shows the top 10 best-sellers of products based on your design Example by the illustration.
-\
+7. And **Final step** Build the report which shows the top 10 best-sellers of products based on your design Example by the illustration.
 ![dashboard 1](https://user-images.githubusercontent.com/95965281/192213230-38c75d02-8377-44a7-bd64-5b094761500b.png) 
 ![dashboard 2](https://user-images.githubusercontent.com/95965281/192213298-571a0661-1400-4e9a-a45e-1a58d04b2c7a.png)
 
